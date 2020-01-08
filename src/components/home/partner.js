@@ -96,6 +96,9 @@ const Partner = () => {
                   <Name>
                     {getNameAndField(node.name)}
                   </Name>
+                  <Name>
+                    {node.category}
+                  </Name>
                 </ItemContent>
               </a>
             </Item>
