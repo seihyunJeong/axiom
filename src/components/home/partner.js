@@ -85,7 +85,7 @@ const Partner = () => {
     <Container>
       <Content>
         <SectionTitle>
-          Partner
+          Portfolio
         </SectionTitle>
         <List>
           {nodes.map(node => (
