@@ -70,6 +70,7 @@ const Partner = () => {
           id
           name
           link
+          category
         }
       }
     }
