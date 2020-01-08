@@ -1,62 +1,74 @@
 [
   {
     "id": "igaworks",
-    "name": "IGAWorks (Data-tech)",
-    "link": "https://www.igaworks.com"
+    "name": "IGAWorks",
+    "link": "https://www.igaworks.com",
+    "category": "Data-tech"
   },
   {
     "id": "velo",
-    "name": "VELO (Fintech)",
-    "link": "https://velo.org/"
+    "name": "VELO",
+    "link": "https://velo.org/",
+    "category": "Fintech"
   },
   {
     "id": "skycool_systems",
-    "name": "SkyCool Systems (Clean Tech)",
-    "link": "http://skycoolsystems.com/"
+    "name": "SkyCool Systems",
+    "link": "http://skycoolsystems.com/",
+    "category": "Clean Tech"
   },
   {
     "id": "vcc",
-    "name": "VCC (Fintech)",
-    "link": "https://vcc.exchange/"
+    "name": "VCC",
+    "link": "https://vcc.exchange/",
+    "category": "Fintech"
   },
   {
     "id": "chopp",
-    "name": "Chopp (Food)",
-    "link": "https://chopp.vn/"
+    "name": "Chopp",
+    "link": "https://chopp.vn/",
+    "category": "Food"
   },
   {
     "id": "hello_market",
-    "name": "Hello Market (Ecommerce)",
-    "link": "https://www.hellomarket.com/"
+    "name": "Hello Market",
+    "link": "https://www.hellomarket.com/",
+    "category": "Ecommerce"
   },
   {
     "id": "jamja",
-    "name": "Jamja (Food)",
-    "link": "https://jamja.vn/"
+    "name": "Jamja",
+    "link": "https://jamja.vn/",
+    "category": "Food"
   },
   {
     "id": "supereasy",
-    "name": "Supereasy (SaaS)",
-    "link": "http://supereasy.co.kr/"
+    "name": "Supereasy",
+    "link": "http://supereasy.co.kr/",
+    "category": "SaaS"
   },
   {
     "id": "verinano",
-    "name": "VeriNano (Biotech)",
-    "link": "https://verinano.com"
+    "name": "VeriNano",
+    "link": "https://verinano.com",
+    "category": "Biotech"
   },
   {
     "id": "ringle",
-    "name": "Ringle (Education)",
-    "link": "https://www.ringleplus.com/"
+    "name": "Ringle",
+    "link": "https://www.ringleplus.com/",
+    "category": "Education"
   },
   {
     "id": "payway",
-    "name": "Payway (Fintech)",
-    "link": "http://payway.vn/"
+    "name": "Payway",
+    "link": "http://payway.vn/",
+    "category": "Fintech"
   },
   {
     "id": "betaskee",
-    "name": "Betaskee (O2O)",
-    "link": "https://www.btaskee.com/en/"
+    "name": "Betaskee",
+    "link": "https://www.btaskee.com/en/",
+    "category": "O2O"
   }
 ]
