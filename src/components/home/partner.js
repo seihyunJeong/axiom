@@ -98,7 +98,7 @@ const Partner = () => {
                     {getNameAndField(node.name)}
                   </Name>
                   <Name>
-                    {(node.category)}
+                    ({node.category})
                   </Name>
                 </ItemContent>
               </a>
