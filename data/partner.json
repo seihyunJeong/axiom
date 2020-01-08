@@ -1,0 +1,62 @@
+[
+  {
+    "id": "igaworks",
+    "name": "IGAWorks (Data-tech)",
+    "link": "https://www.igaworks.com"
+  },
+  {
+    "id": "velo",
+    "name": "VELO (Fintech)",
+    "link": "https://velo.org/"
+  },
+  {
+    "id": "skycool_systems",
+    "name": "SkyCool Systems (Clean Tech)",
+    "link": "http://skycoolsystems.com/"
+  },
+  {
+    "id": "vcc",
+    "name": "VCC (Fintech)",
+    "link": "https://vcc.exchange/"
+  },
+  {
+    "id": "chopp",
+    "name": "Chopp (Food)",
+    "link": "https://chopp.vn/"
+  },
+  {
+    "id": "hello_market",
+    "name": "Hello Market (Ecommerce)",
+    "link": "https://www.hellomarket.com/"
+  },
+  {
+    "id": "jamja",
+    "name": "Jamja (Food)",
+    "link": "https://jamja.vn/"
+  },
+  {
+    "id": "supereasy",
+    "name": "Supereasy (SaaS)",
+    "link": "http://supereasy.co.kr/"
+  },
+  {
+    "id": "verinano",
+    "name": "VeriNano (Biotech)",
+    "link": "https://verinano.com"
+  },
+  {
+    "id": "ringle",
+    "name": "링글 (Education)",
+    "link": "https://www.ringleplus.com/"
+  },
+  {
+    "id": "payway",
+    "name": "Payway (Fintech)",
+    "link": "http://payway.vn/"
+  },
+  {
+    "id": "betaskee",
+    "name": "Betaskee (O2O)",
+    "link": "https://www.btaskee.com/en/"
+  }
+]

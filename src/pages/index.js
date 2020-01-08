@@ -6,17 +6,17 @@ import People from '../components/home/people';
 import About from '../components/home/about';
 import { mediaQuery } from '../utils/style';
 import Etc from '../components/home/etc';
+import Partner from '../components/home/partner';
 
 const Contents = styled.div`
-  grid-gap: 80px;
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  grid-gap: 40px 80px;
+  grid-template-columns: repeat(2, 1fr);
   display: grid;
   margin-top: 48px;
 
   ${mediaQuery.lessThan('medium')`
-    grid-auto-flow: row;
-    grid-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px 40px;
     margin-top: 24px;
   `}
 `;
@@ -28,6 +28,7 @@ const IndexPage = () => (
       <About />
       <People />
       <Etc />
+      <Partner />
     </Contents>
   </Layout>
 );
