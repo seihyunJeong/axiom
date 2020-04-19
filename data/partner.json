@@ -1,15 +1,9 @@
 [
   {
-    "id": "igaworks",
-    "name": "IGAWorks",
-    "link": "https://www.igaworks.com",
-    "category": "Data-tech"
-  },
-  {
-    "id": "velo",
-    "name": "VELO",
-    "link": "https://velo.org/",
-    "category": "Fintech"
+    "id": "verinano",
+    "name": "VeriNano",
+    "link": "https://verinano.com",
+    "category": "Biotech"
   },
   {
     "id": "skycool_systems",
@@ -18,57 +12,27 @@
     "category": "Clean Tech"
   },
   {
+    "id": "ringle",
+    "name": "Ringle",
+    "link": "https://www.ringleplus.com/",
+    "category": "Edutech"
+  },
+  {
+    "id": "igaworks",
+    "name": "IGAWorks",
+    "link": "https://www.igaworks.com",
+    "category": "Adtech"
+  },
+  {
     "id": "vcc",
     "name": "VCC",
     "link": "https://vcc.exchange/",
     "category": "Fintech"
   },
   {
-    "id": "chopp",
-    "name": "Chopp",
-    "link": "https://chopp.vn/",
-    "category": "Food"
-  },
-  {
-    "id": "hello_market",
-    "name": "Hello Market",
-    "link": "https://www.hellomarket.com/",
-    "category": "Ecommerce"
-  },
-  {
-    "id": "jamja",
-    "name": "Jamja",
-    "link": "https://jamja.vn/",
-    "category": "Food"
-  },
-  {
     "id": "supereasy",
     "name": "Supereasy",
     "link": "http://supereasy.co.kr/",
     "category": "SaaS"
-  },
-  {
-    "id": "verinano",
-    "name": "VeriNano",
-    "link": "https://verinano.com",
-    "category": "Biotech"
-  },
-  {
-    "id": "ringle",
-    "name": "Ringle",
-    "link": "https://www.ringleplus.com/",
-    "category": "Education"
-  },
-  {
-    "id": "payway",
-    "name": "Payway",
-    "link": "http://payway.vn/",
-    "category": "Fintech"
-  },
-  {
-    "id": "betaskee",
-    "name": "Betaskee",
-    "link": "https://www.btaskee.com/en/",
-    "category": "O2O"
   }
 ]
