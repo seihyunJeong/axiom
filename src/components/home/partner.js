@@ -81,6 +81,10 @@ const Partner = () => {
       return ''
     }).trim()
   }
+
+  const onmouse = (name) => {
+    this.Attr('src', name)
+  }
 /*
                   <Name>
                     {getNameAndField(node.name)}
@@ -100,7 +104,7 @@ const Partner = () => {
             <Item>
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
-                  <Logo src={`/partner/${node.id}.png`} onmouseover="this.src='`/partner/${node.id}_hover.png`'" onmouseout="this.src='`/partner/${node.id}.png`'"/>
+                  <Logo src={`/partner/${node.id}.png`} onmouseover={onmouse(`/partner/${node.id}_hover.png`)} onmouseout={`/partner/${node.id}.png`}/>
                 
                 </ItemContent>
               </a>
