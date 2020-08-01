@@ -49,7 +49,7 @@ const Name = styled.div`
 `
 
 const Logo = styled.img`
-  height: 30px;
+  height: auto;
   width: auto;
   display: block;
   margin-bottom: 10px;
@@ -81,7 +81,14 @@ const Partner = () => {
       return ''
     }).trim()
   }
-
+/*
+                  <Name>
+                    {getNameAndField(node.name)}
+                  </Name>
+                  <Name>
+                    ({node.category})
+                  </Name>
+*/
   return (
     <Container>
       <Content>
@@ -94,12 +101,7 @@ const Partner = () => {
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
                   <Logo src={`/partner/${node.id}.png`} />
-                  <Name>
-                    {getNameAndField(node.name)}
-                  </Name>
-                  <Name>
-                    ({node.category})
-                  </Name>
+        
                 </ItemContent>
               </a>
             </Item>
