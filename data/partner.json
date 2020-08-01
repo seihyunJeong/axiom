@@ -1,54 +1,63 @@
 [
   {
     "id": "aztherapies",
+    "hover": "aztherapies_hover",
     "name": "AZTHERAPIES",
     "link": "https://aztherapies.com/",
     "category": "Biotech"
   },
   {
     "id": "bioz",
+    "hover": "bioz_hover",
     "name": "Bioz",
     "link": "https://www.bioz.com/",
     "category": "Biotech"
   },
   {
     "id": "react",
+    "hover": "react_hover",
     "name": "REACT",
     "link": "https://reactneuro.com/",
     "category": "SaaS"
   },
   {
     "id": "rokit",
+    "hover": "rokit_hover",
     "name": "ROKIT Healthcare",
     "link": "https://rokithealthcare.com",
     "category": "Biotech"
   },
   {
     "id": "skycool_systems",
+    "hover": "skycool_systems_hover",
     "name": "SkyCool Systems",
     "link": "http://skycoolsystems.com/",
     "category": "Clean Tech"
   },
   {
     "id": "verinano",
+    "hover": "verinano_hover",
     "name": "VeriNano",
     "link": "https://verinano.com",
     "category": "Biotech"
   },
   {
     "id": "ringle",
+    "hover": "ringle_hover",
     "name": "Ringle",
     "link": "https://www.ringleplus.com/",
     "category": "Education"
   },
   {
     "id": "supereasy",
+    "hover": "supereasy_hover",
     "name": "Supereasy",
     "link": "http://supereasy.co.kr/",
     "category": "SaaS"
   },
   {
     "id": "vcc",
+    "hover": "vcc_hover",
     "name": "VCC",
     "link": "https://vcc.exchange/",
     "category": "Fintech"
