@@ -68,6 +68,7 @@ const Partner = () => {
       allPartnerJson {
         nodes {
           id
+          hover
           name
           link
           category
