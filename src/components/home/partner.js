@@ -49,7 +49,7 @@ const Name = styled.div`
 `
 
 const Logo = styled.img`
-  height: 200px;
+  height: 168px;
   width: auto;
   display: block;
   margin-bottom: 10px;
