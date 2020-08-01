@@ -101,7 +101,7 @@ const Partner = () => {
             <Item>
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
-                  <Logo src={`/partner/${node.id}.png`} onMouseOver={`this.src=/partner/${node.id}_hover.png`} onMouseOut={`this.src=/partner/${node.id}.png`}/>
+                  <Logo src={`/partner/${node.id}.png`}/>
                 
                 </ItemContent>
               </a>
