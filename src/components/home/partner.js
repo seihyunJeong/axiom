@@ -56,7 +56,7 @@ const Logo = styled.img`
 
   ${mediaQuery.lessThan('medium')`
     margin-bottom: 6px;
-    height: 26px;
+    height: 120px;
   `}
 `
 
