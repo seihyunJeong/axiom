@@ -82,12 +82,12 @@ const Partner = () => {
     }).trim()
   }
 
-  const effectIn = (name) => {
+  effectIn = (name) => {
     console.log('effect in')
     console.log(name)
   }
 
-  const effectOut = (name) => {
+  effectOut = (name) => {
     console.log('effect out')
     console.log(name)
   }
