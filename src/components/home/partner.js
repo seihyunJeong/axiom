@@ -82,12 +82,12 @@ const Partner = () => {
     }).trim()
   }
 
-  effectIn = (name) => {
+  const effectIn = (name) => {
     console.log('effect in')
     console.log(name)
   }
 
-  effectOut = (name) => {
+  const effectOut = (name) => {
     console.log('effect out')
     console.log(name)
   }
@@ -109,9 +109,9 @@ const Partner = () => {
         <List>
           {nodes.map(node => (
             <Item>
-              <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
+              <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer" onMouseOver={effectIn(`/partner/${node.id}_hover.png`)} onMouseOut={effectOut(`/partner/${node.id}.png`)}>
                 <ItemContent>
-                  <Logo src={`/partner/${node.id}.png`} onMouseOver={effectIn(`/partner/${node.id}_hover.png`)} onMouseOut={effectOut(`/partner/${node.id}.png`)}/>
+                  <Logo src={`/partner/${node.id}.png`} />
                  
                 </ItemContent>
               </a>
