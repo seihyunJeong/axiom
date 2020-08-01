@@ -1,8 +1,26 @@
 [
   {
-    "id": "verinano",
-    "name": "VeriNano",
-    "link": "https://verinano.com",
+    "id": "aztherapies",
+    "name": "AZTHERAPIES",
+    "link": "https://aztherapies.com/",
+    "category": "Biotech"
+  },
+  {
+    "id": "bioz",
+    "name": "Bioz",
+    "link": "https://www.bioz.com/",
+    "category": "Biotech"
+  },
+  {
+    "id": "react",
+    "name": "REACT",
+    "link": "https://reactneuro.com/",
+    "category": "SaaS"
+  },
+  {
+    "id": "rokit",
+    "name": "ROKIT Healthcare",
+    "link": "https://rokithealthcare.com",
     "category": "Biotech"
   },
   {
@@ -12,27 +30,27 @@
     "category": "Clean Tech"
   },
   {
+    "id": "verinano",
+    "name": "VeriNano",
+    "link": "https://verinano.com",
+    "category": "Biotech"
+  },
+  {
     "id": "ringle",
     "name": "Ringle",
     "link": "https://www.ringleplus.com/",
-    "category": "Edutech"
-  },
-  {
-    "id": "igaworks",
-    "name": "IGAWorks",
-    "link": "https://www.igaworks.com",
-    "category": "Adtech"
-  },
-  {
-    "id": "vcc",
-    "name": "VCC",
-    "link": "https://vcc.exchange/",
-    "category": "Fintech"
+    "category": "Education"
   },
   {
     "id": "supereasy",
     "name": "Supereasy",
     "link": "http://supereasy.co.kr/",
     "category": "SaaS"
+  },
+  {
+    "id": "vcc",
+    "name": "VCC",
+    "link": "https://vcc.exchange/",
+    "category": "Fintech"
   }
 ]
