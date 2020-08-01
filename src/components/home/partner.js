@@ -98,7 +98,7 @@ const Partner = () => {
                   <Name>
                     ({node.category})
                   </Name>
-                   
+                <Logo src={`/partner/${node.id}.png`} onMouseOver={`src=/partner/${node.id}_hover.png`} onMouseOut={`src=/partner/${node.id}.png`}/>   
 */
   return (
     <Container>
@@ -111,7 +111,7 @@ const Partner = () => {
             <Item>
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
-                <Logo src={`/partner/${node.id}.png`} onMouseOver={`src=/partner/${node.id}_hover.png`} onMouseOut={`src=/partner/${node.id}.png`}/>
+                <Logo src={`/partner/${node.id}.png`} onMouseOver={console.log("mouse over")} onMouseOut={console.log("mouse out")}/>
                  
                 </ItemContent>
               </a>
