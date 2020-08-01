@@ -82,6 +82,15 @@ const Partner = () => {
     }).trim()
   }
 
+  const effectIn = (name) => {
+    console.log('effect in')
+    console.log(name)
+  }
+
+  const effectOut = (name) => {
+    console.log('effect out')
+    console.log(name)
+  }
 /*
                   <Name>
                     {getNameAndField(node.name)}
@@ -89,6 +98,7 @@ const Partner = () => {
                   <Name>
                     ({node.category})
                   </Name>
+                   <Logo src={`/partner/${node.id}.png`} onMouseOver={`src=/partner/${node.id}_hover.png`} onMouseOut={`src=/partner/${node.id}.png`}/>
 */
   return (
     <Container>
@@ -101,8 +111,8 @@ const Partner = () => {
             <Item>
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
-                  <Logo src={`/partner/${node.id}.png`} onMouseOver={this.src=`/partner/${node.id}_hover.png`} onMouseOut={this.src=`/partner/${node.id}.png`}/>
-                
+                  <Logo src={`/partner/${node.id}.png`} onMouseOver={effectIn(`/partner/${node.id}_hover.png`)} onMouseOut={effectOut(`/partner/${node.id}.png`)}/>
+                 
                 </ItemContent>
               </a>
             </Item>
