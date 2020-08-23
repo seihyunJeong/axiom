@@ -102,6 +102,7 @@ const Partner = () => {
                 <Logo src={`/partner/${node.id}.png`} onMouseOver={`src=/partner/${node.id}_hover.png`} onMouseOut={`src=/partner/${node.id}.png`}/>   
                 <Logo src={`/partner/${node.id}.png`} onMouseOver={() => { src=`/partner/${node.id}_hover.png`; console.log('mouse over'); }} onMouseOut={() => { src=`/partner/${node.id}.png`; console.log("mouse out");}}/>
                 onMouseOut={() => { this.src=`/partner/${node.id}.png`; console.log("mouse out");}
+                onMouseOver={e => { console.log(e); console.log(`/partner/${node.id}_hover.png`); console.log('mouse over'); }} 
 */
   return (
     <Container>
@@ -115,7 +116,8 @@ const Partner = () => {
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
                 <Logo src={`/partner/${node.id}.png`} 
-                          onMouseOver={(e) => { console.log(e.currnetTarget); console.log(`/partner/${node.id}_hover.png`); console.log('mouse over'); }} 
+                          
+                          onMouseOver={e => (console.log(e)}
                           onMouseOut={() => { console.log(`/partner/${node.id}.png`); console.log("mouse out");}
                 }/>
                onMouseOver={e => (e.currentTarget.src = "img2")}
