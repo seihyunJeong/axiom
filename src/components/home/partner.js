@@ -115,10 +115,10 @@ const Partner = () => {
               <a key={node.id} href={node.link} target="_blank" rel="noopener noreferrer">
                 <ItemContent>
                 <Logo src={`/partner/${node.id}.png`} 
-                          onMouseOver={() => { console.log(this.src); console.log(`/partner/${node.id}_hover.png`); console.log('mouse over'); }} 
+                          onMouseOver={(e) => { console.log(e.currnetTarget); console.log(`/partner/${node.id}_hover.png`); console.log('mouse over'); }} 
                           onMouseOut={() => { console.log(`/partner/${node.id}.png`); console.log("mouse out");}
                 }/>
-               
+               onMouseOver={e => (e.currentTarget.src = "img2")}
                 </ItemContent>
               </a>
             </Item>
