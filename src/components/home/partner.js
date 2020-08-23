@@ -117,7 +117,7 @@ const Partner = () => {
                 <ItemContent>
                 <Logo src={`/partner/${node.id}.png`} 
                           
-                          onMouseOver={e => (console.log(e))}
+                          onMouseOver={e => (console.log(e.target))}
                           onMouseOut={() => { console.log(`/partner/${node.id}.png`); console.log("mouse out");}
                 }/>
                
