@@ -47,19 +47,5 @@
     "name": "Ringle",
     "link": "https://www.ringleplus.com/",
     "category": "Education"
-  },
-  {
-    "id": "supereasy",
-    "hover": "supereasy_hover",
-    "name": "Supereasy",
-    "link": "http://supereasy.co.kr/",
-    "category": "SaaS"
-  },
-  {
-    "id": "vcc",
-    "hover": "vcc_hover",
-    "name": "VCC",
-    "link": "https://vcc.exchange/",
-    "category": "Fintech"
   }
 ]
